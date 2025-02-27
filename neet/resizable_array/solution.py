@@ -11,11 +11,11 @@ class DynamicArray:
         # Return element at index i
         return self.arr[i]
 
-    def set(self, i: int, n: int) -> Null:
+    def set(self, i: int, n: int) -> None:
         # Set element at index i to value n
         self.arr[i] = n
 
-    def pushback(self, n: int) -> Null:
+    def pushback(self, n: int) -> None:
         # If array is full, resize first
         if self.size == self.capacity:
             self.resize()
@@ -28,7 +28,7 @@ class DynamicArray:
         self.size -= 1
         return self.arr[self.size]
 
-    def resize(self) -> Null:
+    def resize(self) -> None:
         # Double the capacity
         self.capacity *= 2
         # Create new array with doubled capacity
