@@ -5,3 +5,5 @@ You must reverse the first k nodes in the linked list, and then reverse the next
 Return the modified list after reversing the nodes in each group of k.
 
 You are only allowed to modify the nodes' next pointers, not the values of the nodes.
+
+Adding a short note - 
